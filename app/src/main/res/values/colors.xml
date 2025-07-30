@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="calculator_background">#17181A</color>
+    <color name="calculator_button_bg">#303136</color>
+    <color name="calculator_button_operation_text">#FFFFFF</color>
+    <color name="calculator_button_digit_text">#29A8FF</color>
+    <color name="calculator_operator_bg">#005DB2</color>
+    <color name="calculator_input_text">#FFFFFF</color>
+    <color name="calculator_result_text">#A0A0A0</color>
+    <color name="calculator_equals_bg">#29A8FF</color>
+    <color name="calculator_grey_button_bg">#616161</color>
+    <color name="calculator_grey_button_text">#000000</color>
+
+</resources>

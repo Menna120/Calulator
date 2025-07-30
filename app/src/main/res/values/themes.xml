@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calulator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:statusBarColor">@color/calculator_background</item>
+    </style>
+
+    <style name="Theme.Calulator" parent="Base.Theme.Calulator" />
+
+    <!-- Base style for all calculator buttons -->
+    <style name="CalculatorButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">32sp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <!-- Style for number buttons -->
+    <style name="CalculatorButton.Number" parent="CalculatorButton">
+        <item name="backgroundTint">@color/calculator_button_bg</item>
+        <item name="android:textColor">@color/calculator_button_digit_text</item>
+    </style>
+
+    <!-- Style for operator buttons -->
+    <style name="CalculatorButton.Operator" parent="CalculatorButton">
+        <item name="backgroundTint">@color/calculator_operator_bg</item>
+        <item name="android:textColor">@color/calculator_button_operation_text</item>
+    </style>
+
+    <!-- Style for special buttons (Ac, Backspace) -->
+    <style name="CalculatorButton.Delete" parent="CalculatorButton">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="backgroundTint">@color/calculator_grey_button_bg</item>
+        <item name="android:textColor">@color/calculator_button_operation_text</item>
+    </style>
+
+    <!-- Style for the equals button -->
+    <style name="CalculatorButton.Equals" parent="CalculatorButton">
+        <item name="backgroundTint">@color/calculator_equals_bg</item>
+        <item name="android:textColor">@color/calculator_button_operation_text</item>
+    </style>
+
+</resources>
