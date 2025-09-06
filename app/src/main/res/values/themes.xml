@@ -1,11 +1,10 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
-    <style name="Base.Theme.Calulator" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:statusBarColor">@color/calculator_background</item>
     </style>
 
-    <style name="Theme.Calulator" parent="Base.Theme.Calulator" />
+    <style name="Theme.Calculator" parent="Base.Theme.Calculator" />
 
     <!-- Base style for all calculator buttons -->
     <style name="CalculatorButton" parent="Widget.MaterialComponents.Button">
